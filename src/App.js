@@ -7,6 +7,7 @@ import Header from "./Header";
 import Preloader from "./Preloader";
 import { BsCircle } from "react-icons/bs";
 import Speaks from "./Speaks";
+import TabList from "./TabList";
 
 function App() {
   return (
@@ -16,10 +17,13 @@ function App() {
       <header className="">
         <Header />
       </header>
-      <div className="p-3">
+      {/* <div className="p-3">
         <Speaks />
-      </div>
+      </div> */}
+      <TabList />
       
+
+
     </div>
   );
 }
