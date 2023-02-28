@@ -3,7 +3,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai'
 
 export default function Card() {
     return (
-        <div className='bg-gradient-to-r from-purple-500 to-pink-500 p-12 mt-[-48px]'>
+        <div className='bg-gradient-to-r from-purple-500 to-pink-500 p-12 '>
             <div className='text-center mb-12 text-white'>
                 <h1>OUR SPEAKINGS</h1>
                 <h1 className='text-3xl'>WHO’S SPEAKING</h1>

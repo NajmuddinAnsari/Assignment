@@ -7,6 +7,10 @@ import Preloader from "./components/Preloader";
 import TabList from "./components/TabList";
 import Card from "./components/Card";
 import LatestNews from "./components/LatestNews";
+import About from "./components/About"
+import Sponser from "./components/Sponser"
+import Contact from "./components/Contact"
+import Fotter from "./components/Fotter"
 
 function App() {
   const [isloading, setIsloading] = useState(true);
@@ -23,10 +27,13 @@ function App() {
         <header className="">
           <Header />
         </header>
-
+        <About/>
         <Card />
         <TabList />
+        <Sponser />
         <LatestNews />
+        <Contact />
+        <Fotter />
       </div>
     )
   }

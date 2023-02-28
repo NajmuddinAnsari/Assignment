@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer {
+    background-color: #111343;
+    color: #b394ee;
+    font-size: 16px;
+    /* width: 1216px; */
+  }
+  footer *{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  .row {
+    padding: 1em 1em;
+  }
+  .row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+  }
+  .column {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 2em; */
+    min-height: 15em;
+    /* background: yellow; */
+    
+  }
+  #h5 {
+    /* width: 100%; */
+    text-align: left;
+    color: white;
+    /* font-size: 1.4em; */
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  #ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-left: -35px;
+  }
+  li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  #ul li a {
+    color: #b394ee;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  #ul li a:hover {
+    color: white;
+  }
+  .about{
+    /* background: yellow; */
+    /* width: 100px; */
+    text-align: center;
+  }
+  .about #img{
+    width: 120px;
+    margin: 20px 100px;
+    /* margin-left: 100px; */
+  }
+  .about p {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 2;
+    margin: 0;
+    width: 150px;
+    margin-left: 100px;
+  }
+  input,div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+    /* background: yellow; */
+  }
+  .social i {
+    color: #bac6d9;
+  }
+  
+  .copyright {
+    padding: 0.3em 1em;
+    
+    background-color: #25262e;
+   
+
+  }
+  .footer-menu{
+    float: left;
+      
+  }
+  
+  .copyright .footer-menu a{
+    color: #07edac;
+    padding: 6px;
+    
+  
+    text-decoration: none;
+  }
+  .footer-menu a:hover{
+    color: #27bcda;
+  }
+  .copyright p {
+    /* font-size: 0.3em; */
+    font-size: 12px;
+    text-align: right;
+  }
+
+.img1,.img2{
+    width: 300px;
+    height: 60px;
+    /* background: yellow; */
+    /* border: 1px solid rgb(255, 252, 252); */
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.img1 img,.img2 img{
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+    border-radius: 4px;
+}
+
+  @media screen and (max-width: 850px) {
+    .row.primary {
+      grid-template-columns: 1fr;
+    }
+  
+  }

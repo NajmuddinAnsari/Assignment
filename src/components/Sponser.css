@@ -1,0 +1,121 @@
+.demo{
+    /* border: 1px solid white; */
+    background:#1b1c53;
+    text-align: center;
+    height: 860px;
+
+}
+.demo h3{
+    font-size: 14px;
+    font-weight: 500;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    color: #df42b1
+}
+.demo h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.demo .box{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.demo .box .d1,.d2{
+    width: 900px;
+    height: 180px;
+    /* background: yellow; */
+    /* border: 1px solid white; */
+    margin-left: 160px;
+    display: flex;
+   
+}
+.demo .box .d1 .d11{
+    width: 230px;
+    height: 180px;
+    border: 0.1px solid gray;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+/* .demo .box .d2{
+    margin-top: 10px;
+} */
+.demo .box .d2 .d11{
+    width: 230px;
+    height: 180px;
+    margin-top: 2px;
+    border: 0.2px solid grey;
+    margin-top: -1px;
+    text-align: center;
+    align-items: center;
+}
+.demo .box .d2 .d11 img{
+    width: 180px;
+    height: 150px;
+    padding: 30px;
+    margin-left: 25px;
+}
+.demo .box .d1 .d11 img{
+    width: 180px;
+    height: 150px;
+    padding: 30px;
+    margin-left: 25px;
+    /* background: gray; */
+    /* background-image: linear-gradient(120deg, #b0b7b9); */
+}
+.demo .box .d2 .d11 #img1{
+    width: 220px;
+    margin-left: 0;
+    /* padding: 20px; */
+    height: 120px;
+    margin-top: 20px;
+}
+.demo .box2{
+    width: 900px;
+    height: 280px;
+    margin-left: 160px;
+    /* background: #df42b1; */
+    /* border: 1px solid white; */
+    color: white;
+    align-items: center;
+    display: flex;
+    
+}
+.demo .box2 .card1, .card2{
+    width: 50%;
+    height: 220;
+    margin: 20px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
+    /* border: 1px solid #BFBFBF; */
+    background-color: rgb(50, 58, 108);
+    /* background: transparent; */
+    box-shadow: 4px 4px 4px rgba(3px 3px 3px 4px);
+    font-size: 16px;
+    /* display: flex; */
+    /* margin-bottom: 40px; */
+}
+.demo .box2 .card1 p, .card2 p{
+    margin-left: 10px;
+}
+.demo .box2 .card1 img, .card2 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.demo .box2 .card1 #p1, .card2 #p1{
+    font-size: 14px;
+    font-weight: 600;
+    color: #df42b1;
+}
+.main .part-3 .t1 h6{
+    font-weight: 700;
+}
