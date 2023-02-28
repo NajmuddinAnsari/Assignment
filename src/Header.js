@@ -44,8 +44,9 @@ export default function Header() {
     return (
         <>
             <MainHeader />
+            {/* m-auto py-16 px-4 */}
             {/* max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group' */}
-            <div className='w-[100%] h-screen  m-auto py-16 px-4 relative group mt-[-40px]'>
+            <div className='w-[100%] h-screen py-4  relative group mt-[-40px]'>
                 <div
                     style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
                     className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
@@ -65,7 +66,7 @@ export default function Header() {
                             onClick={() => goToSlide(slideIndex)}
                             className='text-2xl cursor-pointer'
                         >
-                            <RxDotFilled />
+                            {/* <RxDotFilled /> */}
                         </div>
                     ))}
                 </div>

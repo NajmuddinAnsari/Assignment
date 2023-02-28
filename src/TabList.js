@@ -9,7 +9,7 @@ function TabList() {
     const tabs = [{ day: "MONDAY", date: "january 14,2019" }, { day: "TUESDAY", date: "january 14,2019" }, { day: "WEDNESDAY", date: "january 14,2019" }]
 
     return (
-        <div className='bg-[#151853] text-white pt-[10%] pl-[5%] pr-[5%]'>
+        <div className='bg-[#151853] text-white pt-[10%] pl-[5%] pr-[5%] pb-[10%]'>
             <div className=' '>
                 <div className='text-center '>
                     <h1 className='text-[#BE41AE]'>OUR TIMETABLE</h1>
