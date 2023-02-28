@@ -1,34 +1,36 @@
-import React from "react";
-// import logo from './logo.svg';
-// import './App.css';
+import React, { useState } from "react";
 
-import Header from "./Header";
+import Header from "./components/Header";
 
-import Preloader from "./Preloader";
-import { BsCircle } from "react-icons/bs";
-import Speaks from "./Speaks";
-import TabList from "./TabList";
-import Card from "./Card";
-import TickePricing from "./TickePricing";
-import LatestNews from "./LatestNews";
+import Preloader from "./components/Preloader";
+
+import TabList from "./components/TabList";
+import Card from "./components/Card";
+import LatestNews from "./components/LatestNews";
 
 function App() {
-  return (
-    <div className="">
-      {/* <Preloader /> */}
+  const [isloading, setIsloading] = useState(true);
+  const myGreeting = () => {
+    setIsloading(false)
+  }
+  setTimeout(myGreeting, 2000);
+  if (isloading) {
+    return <Preloader />
+  }
+  if (!isloading) {
+    return (
+      <div className="">
+        <header className="">
+          <Header />
+        </header>
 
-      <header className="">
-        <Header />
-      </header>
-      {/* <div className="p-3">
-        <Speaks />
-      </div> */}
-      <Card />
-      <TabList />
-      <LatestNews />
-      {/* <TickePricing /> */}
-    </div>
-  );
+        <Card />
+        <TabList />
+        <LatestNews />
+      </div>
+    )
+  }
+
 }
 
 export default App;

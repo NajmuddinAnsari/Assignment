@@ -15,8 +15,8 @@ function TabList() {
                     <h1 className='text-[#BE41AE]'>OUR TIMETABLE</h1>
                     <h1 className='text-3xl'>SCHEDULE PLAN</h1>
                 </div>
-                <div className=' flex justify-center items-center mt-16  '>
-                    <ul className='flex space-x-12 cursor-pointer'>
+                <div className=' ml-auto mr-auto mt-16 bg-[#1F2371] w-[30%] text-gray-400'>
+                    <ul className='flex space-x-12 cursor-pointer w-full'>
                         {tabs.map((tab, index) => (
                             <li
                                 key={index}
