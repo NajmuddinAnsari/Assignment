@@ -9,22 +9,24 @@ import { BsCircle } from "react-icons/bs";
 import Speaks from "./Speaks";
 import TabList from "./TabList";
 import Card from "./Card";
+import TickePricing from "./TickePricing";
+import LatestNews from "./LatestNews";
 
 function App() {
   return (
     <div className="">
       {/* <Preloader /> */}
-      
+
       <header className="">
         <Header />
       </header>
       {/* <div className="p-3">
         <Speaks />
       </div> */}
+      <Card />
       <TabList />
-      
-        <Card />
-
+      <LatestNews />
+      {/* <TickePricing /> */}
     </div>
   );
 }
