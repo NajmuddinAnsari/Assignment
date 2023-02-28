@@ -8,6 +8,7 @@ import Preloader from "./Preloader";
 import { BsCircle } from "react-icons/bs";
 import Speaks from "./Speaks";
 import TabList from "./TabList";
+import Card from "./Card";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       </div> */}
       <TabList />
       
-
+        <Card />
 
     </div>
   );
